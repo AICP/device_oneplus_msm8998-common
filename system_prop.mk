@@ -246,6 +246,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
 
+# Touch optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.qti.inputopts.enable=true
+
 # UI tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.min.fling_velocity=140 \
