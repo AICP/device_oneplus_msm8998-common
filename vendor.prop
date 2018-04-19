@@ -13,6 +13,9 @@ audio.offload.min.duration.secs=30
 persist.dirac.acs.controller=qem
 ro.dirac.acs.storeSettings=1
 ro.dirac.ignore_error=1
+af.resampler.quality=7 \
+vendor.audio.heap.size.multiplier=7 \
+vendor.audio.offload.pstimeout.secs=3
 
 # Audio new
 vendor.audio_hal.period_size=192
