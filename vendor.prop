@@ -71,6 +71,9 @@ persist.camera.mobicat=2
 persist.camera.stats.debugexif=3080192
 persist.ts.rtmakeup=false
 
+# Gcam FD Ensemble enable
+persist.camera.gcam.fd.ensemble=1
+
 # CNE
 persist.cne.feature=1
 
