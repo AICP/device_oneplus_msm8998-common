@@ -209,11 +209,15 @@ ro.vendor.sensors.mot_detect=true
 ro.vendor.sensors.dpc=true
 ro.vendor.sensors.multishake=true
 
+# Storage 
+#ro.sys.sdcardfs=true
+
 # Tethering
 net.tethering.noprovisioning=true
 
 # Timeservice
 persist.timed.enable=true
+persist.backup.ntpServer="0.pool.ntp.org"
 
 # USB
 sys.usb.controller=a800000.dwc3
