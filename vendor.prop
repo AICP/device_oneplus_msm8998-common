@@ -92,6 +92,10 @@ persist.vendor.dpm.feature=11
 # DRM
 drm.service.enabled=true
 
+# Fling velocities
+ro.min.fling_velocity=140
+ro.max.fling_velocity=20000
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
