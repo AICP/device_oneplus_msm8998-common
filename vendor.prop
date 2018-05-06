@@ -1,3 +1,6 @@
+# Region
+persist.sys.oem.region=OverSeas
+
 # AANC
 persist.vendor.audio.aanc.enable=true
 
@@ -43,6 +46,8 @@ vendor.fm.a2dp.conc.disabled=true
 vendor.audio.noisy.broadcast.delay=600
 ro.config.media_vol_steps=25
 
+af.resampler.quality=7
+
 # Battery
 ro.cutoff_voltage_mv=3200
 
@@ -53,6 +58,9 @@ qcom.bluetooth.soc=cherokee
 ro.bluetooth.a4wp=false
 ro.bluetooth.emb_wp_mode=true
 ro.bluetooth.wipower=true
+
+persist.bt.a2dp.aac_disable=true
+persist.vendor.bt.enable.splita2dp=false
 
 # Cabl
 ro.qualcomm.cabl=0
