@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
 #
 # This file sets variables that control the way modules are built
 # thorughout the system. It should not be used to conditionally
@@ -99,6 +98,9 @@ PRODUCT_COPY_FILES += \
 # Device was launched with N
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.first_api_level=25
+
+# We have been upgraded
+PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
