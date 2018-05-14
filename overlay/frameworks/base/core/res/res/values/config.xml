@@ -89,7 +89,7 @@
     <!-- Array of output values for button backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
-         This must be overridden in platform specific overlays 
+         This must be overridden in platform specific overlays
     <integer-array name="config_autoBrightnessButtonBacklightValues">
         <item>0</item>
         <item>0</item>
@@ -497,4 +497,8 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
+    <!-- applies to both navbar and SmartPixels -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
