@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de8dfa20_03dc9a49",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2018-05-14T00:21:21Z",
+      "side": 0,
+      "message": "This could probably stay the same, just lets the display not kill your eyes if it\u0027s dark out, 15 is actually pretty high for a minimum imho, I would even lower it to at least 5",
+      "revId": "79632acc433891d8a79f9328785623c640d98251",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
