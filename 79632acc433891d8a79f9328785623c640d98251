@@ -16,6 +16,24 @@
       "revId": "79632acc433891d8a79f9328785623c640d98251",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "89cc1b10_f532625f",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-05-21T07:39:37Z",
+      "side": 0,
+      "message": "It was a test. Strangely it was once to dark, but afterwards okay. So back to the old value.",
+      "parentUuid": "de8dfa20_03dc9a49",
+      "revId": "79632acc433891d8a79f9328785623c640d98251",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
     }
   ]
 }

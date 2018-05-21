@@ -16,6 +16,24 @@
       "revId": "106f6a32bbebd45f0c36d556f286887fa8769eb8",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c0989164_a479be16",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-05-21T07:39:37Z",
+      "side": 1,
+      "message": "This is intened as the original had the closing bracket there \"--\u003e\"",
+      "parentUuid": "0a73345f_c17a76e7",
+      "revId": "106f6a32bbebd45f0c36d556f286887fa8769eb8",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
     }
   ]
 }
