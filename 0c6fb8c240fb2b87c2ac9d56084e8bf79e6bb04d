@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "40cb586e_7191c8cf",
+        "filename": "gps/etc/gps.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-06-11T07:11:16Z",
+      "side": 1,
+      "message": "I think we should enable them all and label them NTP_SERVER_2\u003d...NTP_SERVER_3\u003d... to test it.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 39
+      },
+      "revId": "0c6fb8c240fb2b87c2ac9d56084e8bf79e6bb04d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f14751ec_8005e6fe",
+        "filename": "gps/etc/gps.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-06-11T07:11:16Z",
+      "side": 1,
+      "message": "Would set this to 1",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 18
+      },
+      "revId": "0c6fb8c240fb2b87c2ac9d56084e8bf79e6bb04d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7c8507a1_15752d6d",
+        "filename": "gps/etc/gps.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2018-06-11T07:11:16Z",
+      "side": 1,
+      "message": "the code makes it SUPL version 2.0,... just sayin.",
+      "range": {
+        "startLine": 54,
+        "startChar": 2,
+        "endLine": 54,
+        "endChar": 18
+      },
+      "revId": "0c6fb8c240fb2b87c2ac9d56084e8bf79e6bb04d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
