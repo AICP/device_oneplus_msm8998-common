@@ -89,7 +89,7 @@
     <!-- Array of output values for button backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
-         This must be overridden in platform specific overlays 
+         This must be overridden in platform specific overlays
     <integer-array name="config_autoBrightnessButtonBacklightValues">
         <item>0</item>
         <item>0</item>
@@ -475,4 +475,8 @@
     <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
     <!-- applies to both navbar and SmartPixels -->
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- If true, the screen can be rotated via the accelerometer in all 4
+         rotations as the default behavior. -->
+    <bool name="config_allowAllRotations">true</bool>
 </resources>
