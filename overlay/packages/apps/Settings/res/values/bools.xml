@@ -13,6 +13,8 @@
 
 -->
 <resources>
+    <!-- Whether there is a boot sounds checkbox -->
+    <!-- <bool name="has_boot_sounds">true</bool> -->
     <!-- Whether to add AGPS parameter settings -->
     <bool name="config_agps_enabled">true</bool>
 </resources>
