@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00428dc3_3b1131fe",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 855
+      },
+      "writtenOn": "2018-07-19T07:28:56Z",
+      "side": 1,
+      "message": "Isn\u0027t this a OP6 thing? I don\u0027t believe this is doing anything on the OP5/5T",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 37
+      },
+      "revId": "91ee4259d356ae4f6e45670bda1b8a68d752886a",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
