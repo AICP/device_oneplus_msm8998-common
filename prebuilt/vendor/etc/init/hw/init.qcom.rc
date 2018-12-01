@@ -64,6 +64,14 @@ on init
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
+    # Vibrator
+    chown system system /sys/class/timed_output/vibrator/vtg_default
+    chown system system /sys/class/timed_output/vibrator/vtg_level
+    chown system system /sys/class/timed_output/vibrator/vtg_max
+    chown system system /sys/class/timed_output/vibrator/vtg_min
+
+    chmod 0664 /sys/class/timed_output/vibrator/vtg_level
+
 on early-boot
     # Allow subsystem (modem etc) debugging
     write /sys/kernel/boot_adsp/boot 1
