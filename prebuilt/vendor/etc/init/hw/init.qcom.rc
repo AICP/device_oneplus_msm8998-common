@@ -229,6 +229,9 @@ on boot
     # Create vpp directory
     mkdir /mnt/vendor/persist/vpp 0770 media media
 
+    # Pocket judge sysfs permissions
+    chown system system /sys/kernel/pocket_judge/inpocket
+    chmod 0664 /sys/kernel/pocket_judge/inpocket
 
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
