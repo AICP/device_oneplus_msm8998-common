@@ -59,6 +59,10 @@ on init
     chown root system /sys/fs/cgroup/memory/bg/tasks
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
 
+    mount none /system/etc/audio_effects.xml /vendor/etc/audio_effects.xml bind
+    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
+    mount none /system/lib/soundfx/libjamesdsp.so /vendor/lib/soundfx/libjamesdsp.so bind
+
     setprop vendor.boot.project_name ${ro.boot.project_name}
 
 on post-fs
