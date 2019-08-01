@@ -501,6 +501,10 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
 
+# JamesDSP
+PRODUCT_PACKAGES += \
+    init.jamesdsp.sh
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
 

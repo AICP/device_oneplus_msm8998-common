@@ -26,6 +26,9 @@
 /dev/goodix_fp                                                  u:object_r:fingerprint_device:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-custom u:object_r:hal_fingerprint_default_exec:s0
 
+# Custom Equilizer (JamesDSP)
+/system/lib/soundfx/libjamesdsp\.so    u:object_r:jamesdsp_lib:s0
+
 # Lights
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service.oneplus_8998    u:object_r:hal_light_default_exec:s0
 
