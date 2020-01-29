@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b17c37a8_16372e49",
+        "filename": "doze/res/xml/doze_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2020-01-29T13:46:55Z",
+      "side": 1,
+      "message": "device/oneplus/sdm845-common/doze/res/xml/doze_settings.xml:66: error: resource string/pulse_ambient_light_auto_color_summary (aka org.lineageos.settings.doze:string/pulse_ambient_light_auto_color_summary) not found.\ndevice/oneplus/sdm845-common/doze/res/xml/doze_settings.xml:66: error: resource string/pulse_ambient_light_auto_color_title (aka org.lineageos.settings.doze:string/pulse_ambient_light_auto_color_title) not found.\n\n\nAli, Do you have changes for resources_devicesettings ?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 72
+      },
+      "revId": "c4fac1f36cc0280de2cb23802acbbfc81b8f5c00",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
