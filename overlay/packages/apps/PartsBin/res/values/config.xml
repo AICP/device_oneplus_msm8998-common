@@ -74,4 +74,6 @@
 
     <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not. Default value is false. -->
     <bool name="enableHBMModeTile">true</bool>
+
+    <bool name="config_device_supports_switch_refreshrate">true</bool>
 </resources>
