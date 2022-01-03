@@ -26,6 +26,7 @@
 #
 
 import /vendor/etc/init/hw/init.qcom.usb.rc
+import /vendor/etc/init/hw/init.aicp.rc
 import /vendor/etc/init/hw/init.target.rc
 
 on early-init
@@ -191,10 +192,6 @@ on post-fs
 
     # Wait for qseecomd started
     wait_for_prop vendor.sys.listeners.registered true
-
-    # Pocket_judge: kernel fpc and touchscreen irq controller for pocket_bridge
-    chown system system /sys/kernel/pocket_judge/inpocket
-    chmod 664 /sys/kernel/pocket_judge/inpocket
 
 on late-fs
     # Start devices by sysfs trigger
@@ -385,20 +382,17 @@ on property:sys.boot_completed=1
     write /dev/cpuset/system-background/cpus 0-3
     write /dev/cpuset/restricted/cpus 0-3
 
+    # set default schedTune value for foreground/top-app
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 5
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
     # Tune FS for runtime
     write /sys/block/sda/queue/read_ahead_kb 128
     write /sys/block/sdf/queue/read_ahead_kb 128
 
     # WDSP FW boot sysfs node used by STHAL
     chown media audio /sys/kernel/wcd_cpe0/fw_name
-
-    # Sound control: various audio gain controls
-    chown system system /sys/kernel/sound_control/earpiece_gain
-    chown system system /sys/kernel/sound_control/headphone_gain
-    chown system system /sys/kernel/sound_control/mic_gain
-    chmod 664 /sys/kernel/sound_control/earpiece_gain
-    chmod 664 /sys/kernel/sound_control/headphone_gain
-    chmod 664 /sys/kernel/sound_control/mic_gain
 
     # Let kernel know our image version/variant/crm_version
     write /sys/devices/soc0/select_image 10

@@ -35,9 +35,12 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aicp
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-aicp/packages/apps/Snap \
+    $(LOCAL_PATH)/overlay-aicp/hardware/oneplus/OneplusParts
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -224,6 +227,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.aicp.rc \
     init.devstart.sh \
     init.qcom.rc \
     init.qcom.usb.rc \
@@ -400,7 +404,7 @@ PRODUCT_PACKAGES += \
 
 # Tri-state-key
 PRODUCT_PACKAGES += \
-    KeyHandler
+    OneplusParts
 
 # Trust HAL
 PRODUCT_PACKAGES += \
