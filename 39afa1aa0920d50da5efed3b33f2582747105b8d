@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "870f76fd_86bc3ce2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1782
+      },
+      "writtenOn": "2022-01-13T21:25:21Z",
+      "side": 1,
+      "message": "Hmm, wonder if we should revert 012b99774c6de920e458359ace682a6f3cc60ba2 instead...?",
+      "revId": "39afa1aa0920d50da5efed3b33f2582747105b8d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
