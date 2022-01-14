@@ -16,6 +16,24 @@
       "message": "Probably want to use this one instead of 112467.",
       "revId": "1d4eeb8384913e94afdcf9182f3c2645a2633cde",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b047450_8aac3cc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-01-14T07:05:15Z",
+      "side": 1,
+      "message": "jup, I think this one is better",
+      "parentUuid": "a4a9c1f6_abcd5e38",
+      "revId": "1d4eeb8384913e94afdcf9182f3c2645a2633cde",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
