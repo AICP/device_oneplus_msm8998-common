@@ -176,7 +176,7 @@ PRODUCT_COPY_FILES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    OnePlusDoze
+    Doze
 
 # DRM
 PRODUCT_PACKAGES += \
