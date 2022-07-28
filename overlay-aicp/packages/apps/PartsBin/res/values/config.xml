@@ -18,6 +18,9 @@
      for different hardware or product builds. -->
 <resources>
 
+    <!-- Whether device supports disabling PartsBin Alert Slider -->
+    <bool name="config_device_has_alert_slider">true</bool>
+
     <!-- Path to devices High Brigness Mode toggle file -->
     <string name="pathHBMModeToggle">/sys/devices/virtual/graphics/fb0/hbm</string>
 
