@@ -58,4 +58,8 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
+    <!-- Enable LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+    <integer name="config_defaultLiveDisplayMode">0</integer>
+
 </resources>
