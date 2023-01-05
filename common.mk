@@ -402,7 +402,8 @@ PRODUCT_PACKAGES += \
 
 # Tri-state-key
 PRODUCT_PACKAGES += \
-    OneplusParts
+    OneplusParts \
+    TouchGestures
 
 # Trust HAL
 PRODUCT_PACKAGES += \
