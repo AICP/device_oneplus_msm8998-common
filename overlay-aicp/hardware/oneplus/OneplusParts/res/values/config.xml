@@ -43,4 +43,7 @@
 
     <!-- Device fps path -->
     <string name="pathfpsInfo">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+
+    <!-- Device usb fast charge path -->
+    <string name="pathUsbFastCharge">/sys/kernel/fast_charge/force_fast_charge</string>
 </resources>
