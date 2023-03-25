@@ -10,5 +10,11 @@
     "target_path": "prebuilts/clang/host/linux-x86/clang-r450784e",
     "branch": "master",
     "remote": "gitlab"
+  },
+  {
+    "repository": "LineageOS/android_hardware_oneplus",
+    "target_path": "hardware/oneplus",
+    "branch": "lineage-19.1",
+    "remote": "lineage"
   }
 ]
