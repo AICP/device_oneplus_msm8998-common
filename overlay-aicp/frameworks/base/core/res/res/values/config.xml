@@ -35,7 +35,7 @@
 
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-        <item>com.aicp.oneplus.KeyHandler</item>
+        <item>com.aicp.oneplus.OneplusParts.KeyHandler</item>
         <item>com.android.touch.gestures.KeyHandler</item>
     </string-array>
 
